@@ -44,9 +44,9 @@ class ProductController extends Controller
      * @param  \App\Models\product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(product $product)
+    public function show( $id)
     {
-        //
+        $prodect = Prodect::find($id)->get();
     }
 
     /**
@@ -78,8 +78,60 @@ class ProductController extends Controller
      * @param  \App\Models\product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(product $product)
-    {
-        //
+
+    public function destroy($id)
+    {//Done
+            $product =Product::find($id); $product->delete(); return $product;
     }
+    public function getProdects()
+    {
+        $product= product::with(['users'=>function($q)
+        {$q->select(
+            'product_name',
+            'expiry_date',
+            'image','type','num_likes','price',
+            'amount_products','user_id'
+
+        );}])->get();
+
+        return  response()->json($product, 200, $headers);
+    }
+
+
+
+    public function add(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'product_name'=>['required','string'],
+            'expiry_date'=>['required'],
+            'image'=>['required','text'],
+            'type'=>['required','string'],
+            'num_likes'=>['required','numeric'],
+            'price'=>['required','numeric'],
+            'amount_products'=>['required','numeric'],
+            'user_id'=>['required','numeric'],
+
+
+        ]);
+
+        if($validator->fails()){
+            return $validator->errors()->all();
+        }
+
+        $product = product::query()->create([
+            'product_name' => $request->product_name ,
+            'expiry_date' => $request->expiry_date,
+            'image' => $request->image,
+            'type' => $request->type,
+            'num_likes' => $request->num_likes,
+            'price' => $request->price,
+            'amount_products' => $request->amount_products,
+            'user_id' => $request->user_id
+
+        ]);
+        if($user->save())
+        return ['status'=>'addProduct secsessfully...'];
+    }
+
+
 }
