@@ -10,7 +10,7 @@ class comment extends Model
     public $table = 'comments';
     public $primaryKey = 'id';
     protected $fillable =   [
-        'description'
+        'description',
     ];
 
     public function users()
@@ -21,5 +21,5 @@ class comment extends Model
     {
         return $this->belongsTo('App\Models\product');
     }
-    use HasFactory; 
+    use HasFactory;
 }
