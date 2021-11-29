@@ -5,12 +5,10 @@ namespace App\Console;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
-class Kernel extends ConsoleKerne{
-
+class Kernel extends ConsoleKernel
+{
     /**
-
-     * The Artisan commands provid
-     * ed by your application.
+     * The Artisan commands provided by your application.
      *
      * @var array
      */
@@ -19,7 +17,6 @@ class Kernel extends ConsoleKerne{
     ];
 
     /**
-
      * Define the application's command schedule.
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
