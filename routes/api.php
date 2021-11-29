@@ -18,10 +18,4 @@ use App\Http\Controllers\ProductController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::post('/addProdect',ProductController::class,'add');
-Route::get('/getProdects',ProductController::class,'getProdects');
-Route::get('/showDetails',ProductController::class,'show');
-Route::delete('/delete',ProductController::class,'destroy');
-Route::get('/sershByName',ProductController::class,'sershByName');
-Route::get('/addFav',ProductController::class,'addFav');
-Route::get('/sortingByType',ProductController::class,'sortingByType');
+Route::post('/add', [ProductController::class, 'add']);
