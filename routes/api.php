@@ -19,3 +19,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/add', [ProductController::class, 'add']);
+Route::get('/getProducts', [ProductController::class, 'getProducts']);
+Route::get('/sershByName', [ProductController::class, 'sershByName']);
+Route::get('/showDetails', [ProductController::class, 'show']);
+Route::post('/addFav', [ProductController::class, 'addFav']);
+Route::post('/sortion', [ProductController::class, 'sortion']);
+Route::delete('/delete', [ProductController::class, 'destroy']);
+

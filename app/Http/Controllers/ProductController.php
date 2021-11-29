@@ -47,17 +47,21 @@ class ProductController extends Controller
     public function show( $id)
     {
         $prodect = Prodect::find($id)->get();
+        //$discounts =$prodect->$discounts
+        //return response ()->json($discounts);
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for sershByName the specified resource.
      *
      * @param  \App\Models\product  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(product $product)
+    public function sershByName(product $product)
     {
-        //
+       // $prodects = Prodect::find($product->user_id)->get();
+       return  $prodect=product:: where('product_name','%$query%');
+
     }
 
     /**
@@ -91,10 +95,10 @@ class ProductController extends Controller
             'expiry_date',
             'image','type','num_likes','price',
             'amount_products','user_id'
-
         );}])->get();
 
         return  response()->json($product, 200, $headers);
+      //return Prodect::all(); anthor way
     }
 
 
@@ -110,14 +114,11 @@ class ProductController extends Controller
             'price'=>['required','numeric'],
             'amount_products'=>['required','numeric'],
             'user_id'=>['required','numeric'],
-
-
         ]);
 
         if($validator->fails()){
             return $validator->errors()->all();
         }
-
         $product = product::query()->create([
             'product_name' => $request->product_name ,
             'expiry_date' => $request->expiry_date,
@@ -130,8 +131,7 @@ class ProductController extends Controller
 
         ]);
         if($user->save())
-        return ['status'=>'addProduct secsessfully...'];
+        return ['status'=>'Product created successfully.'];
+
     }
-
-
 }
