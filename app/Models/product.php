@@ -14,6 +14,7 @@ class product extends Model
         'type',
         'num_likes',
         'price',
+        'user_id',
         'amount_products'
     ];
     public function comments()

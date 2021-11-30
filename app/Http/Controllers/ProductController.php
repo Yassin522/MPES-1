@@ -4,14 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\product;
 use Illuminate\Http\Request;
+use App\Models\User;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
-
-
-
 
 class ProductController extends Controller
 {
@@ -41,11 +39,13 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
-    }
 
+
+public function store(Request $request)
+{
+    $inputs = $request->all();
+    return $product = Product::Create($inputs);
+}
     /**
      * Display the specified resource.
      *
@@ -54,9 +54,11 @@ class ProductController extends Controller
      */
     public function show( $id)
     {
-        $prodect = Prodect::find($id)->get();
+      //  $prodect = Prodect::find($id)->get();
         //$discounts =$prodect->$discounts
         //return response ()->json($discounts);
+        $product = Product::find(1); //lets say for test we just took firs user
+        return $product->users()->get();
     }
 
     /**
@@ -95,18 +97,21 @@ class ProductController extends Controller
     {//Done
             $product =Product::find($id); $product->delete(); return $product;
     }
-    public function getProdects()
-    {
-        $product= product::with(['users'=>function($q)
-        {$q->select(
-            'product_name',
-            'expiry_date',
-            'image','type','num_likes','price',
-            'amount_products','user_id'
-        );}])->get();
+    public function getProducts()
+     {
+    //     $product= product::with(['users'=>function($q)
+    //     {$q->select(
+    //         'id',
+    //         'product_name',
+    //         'expiry_date',
+    //         'dateNow',
+    //         'image','type','num_likes','price',
+    //         'amount_products','user_id'
+    //     );}])->get();
+    //     return  response()->json($product, 200);
 
-        return  response()->json($product, 200, $headers);
-      //return Prodect::all(); anthor way
+    return product::all();// anthor way
+
     }
 
 
@@ -114,7 +119,7 @@ class ProductController extends Controller
     public function add(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'product_name'=>['required','string'],
+            'product_name'=>['string'],
             'expiry_date'=>['required'],
             'image'=>['required','text'],
             'type'=>['required','string'],
@@ -127,8 +132,9 @@ class ProductController extends Controller
         if($validator->fails()){
             return $validator->errors()->all();
         }
-        $product = product::query()->create([
-            'product_name' => $request->product_name ,
+
+        $product = Product::query()->create([
+            'product_name' => $request->product_name,
             'expiry_date' => $request->expiry_date,
             'image' => $request->image,
             'type' => $request->type,
@@ -138,7 +144,7 @@ class ProductController extends Controller
             'user_id' => $request->user_id
 
         ]);
-        if($user->save())
+        if($product->save())
         return ['status'=>'Product created successfully.'];
 
     }

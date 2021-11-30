@@ -11,7 +11,7 @@ class CreateCommentsTable extends Migration
         Schema::dropIfExists('comments');
 
         Schema::create('comments', function (Blueprint $table) {
-            $table->id();
+            $table->increaments('id');
             $table->string('description');
             $table->foreignId('user_id')->constrained(table:'users')->cascadeOnDelete();
             $table->foreignId('product_id')->constrained(table:'products')->cascadeOnDelete();

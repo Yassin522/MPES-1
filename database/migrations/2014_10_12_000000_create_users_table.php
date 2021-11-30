@@ -12,7 +12,7 @@ class CreateUsersTable extends Migration
         Schema::dropIfExists('users');
 
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
+            $table->increaments('id');
             $table->string('user_name');
             $table->string('email_app')->unique();
             $table->string('password');

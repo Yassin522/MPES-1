@@ -11,7 +11,7 @@ class CreateProductsTable extends Migration
     {       Schema::dropIfExists('products');
 
         Schema::create('products', function (Blueprint $table) {
-            $table->id();
+            $table->increaments('id');
             $table->string('product_name');
             $table->date('expiry_date');
             $table->text('image');
