@@ -4,113 +4,78 @@ namespace App\Http\Controllers;
 
 use App\Models\product;
 use Illuminate\Http\Request;
-use App\Models\User;
-use Illuminate\Auth\AuthenticationException;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Validation\Rule;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+// public function store(Request $request)
+// {//Done
+//     $inputs = $request->all();
+//     return $product = Product::Create($inputs);
+// }
 
 
-public function store(Request $request)
-{
-    $inputs = $request->all();
-    return $product = Product::Create($inputs);
-}
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\product  $product
-     * @return \Illuminate\Http\Response
-     */
     public function show( $id)
     {
-      //  $prodect = Prodect::find($id)->get();
-        //$discounts =$prodect->$discounts
-        //return response ()->json($discounts);
-        $product = Product::find(1); //lets say for test we just took firs user
-        return $product->users()->get();
+        # Done...
+
+           $product = Product::find($id);
+
+           return  $product->load(['user']);
     }
 
-    /**
-     * Show the form for sershByName the specified resource.
-     *
-     * @param  \App\Models\product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function sershByName(product $product)
+
+
+    public function searchByName(string $product_name)
     {
-       // $prodects = Prodect::find($product->user_id)->get();
-       return  $prodect=product:: where('product_name','%$query%');
+        # Done...
+
+     // dd(product::where('product_name', $product_name)->get());
+    return  product::where('product_name', $product_name)->get();
+
 
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, product $product)
+
+    public function sorting(string $type )
     {
-        //
-    }
+        # code...
+          $product = product::orderBy('type')->get();
+         // dd($product);
+          return  $product;
+        }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\product  $product
-     * @return \Illuminate\Http\Response
-     */
+    /*
 
+  // public function indexPaging()
+    // {
+    //     $products = Product::paginate(5);
+
+    //     return view('products.index-paging')->with('products', $products);
+    // }
+    Route::get('products/index-paging', 'ProductsController@indexPaging');
+
+
+
+
+
+    */
     public function destroy($id)
-    {//Done
+    {
+        # Done...
+
             $product =Product::find($id); $product->delete(); return $product;
     }
+
+
+
     public function getProducts()
      {
-    //     $product= product::with(['users'=>function($q)
-    //     {$q->select(
-    //         'id',
-    //         'product_name',
-    //         'expiry_date',
-    //         'dateNow',
-    //         'image','type','num_likes','price',
-    //         'amount_products','user_id'
-    //     );}])->get();
-    //     return  response()->json($product, 200);
+         # Done...
 
-    return product::all();// anthor way
+        $product=product::query()->with(['user'])->get();
+        return $product;
 
     }
 
@@ -118,10 +83,12 @@ public function store(Request $request)
 
     public function add(Request $request)
     {
+        # Done...
+
         $validator = Validator::make($request->all(), [
             'product_name'=>['string'],
             'expiry_date'=>['required'],
-            'image'=>['required','text'],
+            'image'=>['required','string'],
             'type'=>['required','string'],
             'num_likes'=>['required','numeric'],
             'price'=>['required','numeric'],

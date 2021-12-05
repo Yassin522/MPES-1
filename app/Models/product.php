@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class product extends Model
 {
+
+    // public $with = ['user'];
     protected $fillable = [
         'product_name',
         'expiry_date',
@@ -21,9 +23,9 @@ class product extends Model
     {
         return $this->hasMany('App\Models\comment');
     }
-    public function users()
+    public function user()
     {
-        return $this->belongsTo('App\Models\User');
+        return $this->belongsTo('App\Models\User', 'user_id');
     }
     public function discounts()
     {
