@@ -24,8 +24,8 @@ Route::post('/add', [ProductController::class, 'add']);
 Route::get('/getProducts', [ProductController::class, 'getProducts']);
 Route::get('/searchByName/{product_name}', [ProductController::class, 'searchByName']);
 Route::get('/showDetails/{id}', [ProductController::class, 'show']);
-Route::post('/addFav', [ProductController::class, 'addFav']);//notDone
-Route::get('/sorting/{type}', [ProductController::class, 'sorting']);//notDone
+Route::post('/addLike/{id}/{num_likes}', [ProductController::class, 'addLike']);//notDone
+Route::get('/sorting/{type}', [ProductController::class, 'sorting']);
 Route::post('/Register', [UserController::class, 'Register']);
 Route::delete('/destroy/{id}', [ProductController::class, 'destroy']);
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
@@ -46,6 +47,35 @@ class ProductController extends Controller
           return  $product;
         }
 
+   public function addLike( $id, int $num_likes)
+   {
+            #code.....
+            if($product = Product::find($id))
+         {   DB::table('products')
+            ->where('id', $id)
+            ->update(['num_likes' => $num_likes]);
+         }
+        return redirect('product')->with('status', 'Product Updated');
+    }
+
+      //  public function addLike(Request $request,$id)//id here is product id
+      //  {
+
+        /*
+            DB::table('users')
+            ->where('id', 1)
+            ->update(['votes' => 1]);
+
+        */
+            # code...
+
+        //     $product = Product::find($id);
+        //     $product = Product::query()->update([
+        //         'id'=>   $product->id,
+        //         'num_likes' => $request->num_likes,]);
+        //    // if($product->save())
+        //     return ['status'=>'Product update successfully.'];
+       // }
     /*
 
   // public function indexPaging()

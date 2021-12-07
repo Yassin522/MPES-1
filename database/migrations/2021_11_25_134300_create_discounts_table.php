@@ -11,7 +11,7 @@ class CreateDiscountsTable extends Migration
     {       Schema::dropIfExists('discounts');
 
         Schema::create('discounts', function (Blueprint $table) {
-            $table->increaments('id');
+            $table->id();
             $table->string('name');
             $table->date('discount_date');
             $table->integer('discount');
@@ -24,5 +24,6 @@ class CreateDiscountsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('prices');
+
     }
 }

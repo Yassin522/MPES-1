@@ -10,6 +10,7 @@ class product extends Model
 
     // public $with = ['user'];
     protected $fillable = [
+        'id',
         'product_name',
         'expiry_date',
         'image',
