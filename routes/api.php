@@ -5,9 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 
-
 /*
-|--------------------------------------------------------------------------
+|-------------------ss-------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
 |
@@ -24,8 +23,9 @@ Route::post('/add', [ProductController::class, 'add']);
 Route::get('/getProducts', [ProductController::class, 'getProducts']);
 Route::get('/searchByName/{product_name}', [ProductController::class, 'searchByName']);
 Route::get('/showDetails/{id}', [ProductController::class, 'show']);
-Route::post('/addLike/{id}/{num_likes}', [ProductController::class, 'addLike']);//notDone
+Route::post('/addLike/{id}', [ProductController::class, 'addLike']);
 Route::get('/sorting/{type}', [ProductController::class, 'sorting']);
 Route::post('/Register', [UserController::class, 'Register']);
 Route::delete('/destroy/{id}', [ProductController::class, 'destroy']);
+// Route :: get ( 'welcome / {locale}' ,function ( $ locale ) { App :: setLocale ( $ locale )}); 
 
