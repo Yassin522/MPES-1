@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Stichoza\GoogleTranslate\GoogleTranslate;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    //$tr = new GoogleTranslate('en');    // Translates into English
+
+  //  $tr = new GoogleTranslate('fr'); // Translates into france
+   // return $tr->translate('hello world');
+    return  GoogleTranslate::trans('Hello again', 'fr');
+
+    // return view('welcome');
 });

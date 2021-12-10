@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class product extends Model
 {
 
-    // public $with = ['user'];
+    protected $table = 'products';
     protected $fillable = [
         'id',
         'product_name',
@@ -20,6 +20,7 @@ class product extends Model
         'user_id',
         'amount_products'
     ];
+    public $timestamps;
     public function comments()
     {
         return $this->hasMany('App\Models\comment');

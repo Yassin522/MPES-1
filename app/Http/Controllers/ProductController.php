@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 
+
+
 class ProductController extends Controller
 {
 
@@ -25,8 +27,6 @@ class ProductController extends Controller
 
            return  $product->load(['user']);
     }
-
-
 
     public function searchByName(string $product_name)
     {
@@ -47,36 +47,20 @@ class ProductController extends Controller
           return  $product;
         }
 
-   public function addLike( $id, int $num_likes)
+   public function addLike( $id, Request $request)
    {
-            #code.....
-            if($product = Product::find($id))
-         {   DB::table('products')
-            ->where('id', $id)
-            ->update(['num_likes' => $num_likes]);
-         }
-        return redirect('product')->with('status', 'Product Updated');
+       #Done
+    $product=Product::find($id)->get();
+     if($request->num_likes!=null)
+       {        DB::table('products')
+                ->where('id', $id)
+                ->update(['num_likes'=>$request->num_likes]);
+        }
+        return['Update like done'];
     }
 
-      //  public function addLike(Request $request,$id)//id here is product id
-      //  {
 
-        /*
-            DB::table('users')
-            ->where('id', 1)
-            ->update(['votes' => 1]);
 
-        */
-            # code...
-
-        //     $product = Product::find($id);
-        //     $product = Product::query()->update([
-        //         'id'=>   $product->id,
-        //         'num_likes' => $request->num_likes,]);
-        //    // if($product->save())
-        //     return ['status'=>'Product update successfully.'];
-       // }
-    /*
 
   // public function indexPaging()
     // {
@@ -84,13 +68,13 @@ class ProductController extends Controller
 
     //     return view('products.index-paging')->with('products', $products);
     // }
-    Route::get('products/index-paging', 'ProductsController@indexPaging');
+// Route::get('products/index-paging', 'ProductsController@indexPaging');
 
 
 
 
 
-    */
+
     public function destroy($id)
     {
         # Done...
@@ -103,7 +87,6 @@ class ProductController extends Controller
     public function getProducts()
      {
          # Done...
-
         $product=product::query()->with(['user'])->get();
         return $product;
 

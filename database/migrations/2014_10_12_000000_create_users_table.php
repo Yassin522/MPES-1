@@ -20,16 +20,14 @@ class CreateUsersTable extends Migration
             $table->integer('phone');
             $table->boolean('active');
             $table->timestamp('email_verified_at')->nullable();
-            $table->rememberToken();
-            $table->timestamps();
-        });
-    }
-
+        });}
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
     public function down()
     {
         Schema::dropIfExists('users');
-        // DB::statement('SET FOREIGN_KEY_CHECKS = 0');
-        // Schema::dropIfExists('users');
-        // DB::statement('SET FOREIGN_KEY_CHECKS = 1');
     }
 }
