@@ -17,6 +17,7 @@ class User extends Authenticatable
      *
      * @var string[]
      */
+
     protected $fillable = [
         'user_name','real_email','password','email_app','active','phone'
 
@@ -27,6 +28,14 @@ class User extends Authenticatable
      *
      * @var array
      */
+    public function comments()
+    {
+        return $this->hasMany('App\Models\comment');
+    }
+    public function products()
+    {
+        return $this->hasMany('App\Models\product');
+    }
     protected $hidden = [
         'password',
         'remember_token',

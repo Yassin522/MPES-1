@@ -38,11 +38,19 @@ class ProductController extends Controller
 
     }
 
+    public function search(string $product_name)
+    {
+        # Done...
 
-    public function sorting(string $type )
+     // dd(product::where('product_name', $product_name)->get());
+    return  product::where('product_name', $product_name)->get();
+
+
+    }
+    public function sorting(string $category )
     {
         # code...
-          $product = product::orderBy('type')->get();
+          $product = product::orderBy('category')->get();
          // dd($product);
           return  $product;
         }

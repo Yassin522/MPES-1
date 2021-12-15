@@ -25,14 +25,20 @@ class product extends Model
     {
         return $this->hasMany('App\Models\comment');
     }
+
     public function user()
     {
         return $this->belongsTo('App\Models\User', 'user_id');
     }
+
     public function discounts()
     {
         return $this->hasMany('App\Models\discount');
     }
 
+    public function category()
+    {
+        return $this->belongsTo('App\Models\category', 'category_id');
+    }
     use HasFactory;
 }
