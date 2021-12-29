@@ -17,4 +17,11 @@ class category extends Model
     {
         return $this->hasMany('App\Models\product');
     }
+    public function scopeGetCategorieSlug($query, $category_slug)
+    {
+        return $query->leftJoin('category_product', 'category_product.product_id', '=', 'products.id')
+                    ->leftJoin('product_categories', 'product_categories.id', '=', 'category_product.category_id')
+                    ->where('product_categories.slug', $category_slug)
+                    ->get(['products.*']);
+    }
 }

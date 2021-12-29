@@ -18,7 +18,6 @@ class Category extends Migration
         Schema::create('categorys', function (Blueprint $table) {
             $table->id();
             $table->string('category_name')->nullable() ;
-            $table->foreignId('product_id')->constrained(table:'products')->cascadeOnDelete();
 
             $table->timestamps();
         });

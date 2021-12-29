@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class product extends Model
 {
+    public $with = ['category','discounts'];
+
 
     protected $table = 'products';
     protected $fillable = [
@@ -18,7 +20,10 @@ class product extends Model
         'num_likes',
         'price',
         'user_id',
+        'category_name',
+        "category_id",
         'amount_products'
+
     ];
     public $timestamps;
     public function comments()
@@ -33,12 +38,15 @@ class product extends Model
 
     public function discounts()
     {
-        return $this->hasMany('App\Models\discount');
+        return $this->hasMany('App\Models\discount')->orderBy('discount_date');
     }
 
-    public function category()
+
+
+    public function Category()
     {
         return $this->belongsTo('App\Models\category', 'category_id');
+
     }
     use HasFactory;
 }

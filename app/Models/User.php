@@ -34,7 +34,7 @@ class User extends Authenticatable
     }
     public function products()
     {
-        return $this->hasMany('App\Models\product');
+        return $this->hasMany('App\Models\product')->orderBy('type');
     }
     protected $hidden = [
         'password',
