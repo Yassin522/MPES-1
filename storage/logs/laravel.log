@@ -18743,3 +18743,1844 @@ Did you mean one of these?
 #40 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\server.php(21): require_once('C:\\\\Users\\\\BIG BA...')
 #41 {main}
 "} 
+[2021-12-29 20:45:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:45:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:45:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:46:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:46:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:46:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:47:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:47:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:48:18] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:48:18] local.ERROR: syntax error, unexpected token "<<", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"<<\", expecting \"function\" or \"const\" at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Models\\User.php:20)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:48:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:48:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:48:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:49:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:49:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:49:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:49:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:50:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:50:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:50:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:51:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:51:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:51:56] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:51:56] local.ERROR: syntax error, unexpected token "<<", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"<<\", expecting \"function\" or \"const\" at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Models\\User.php:20)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:52:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:52:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:52:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:53:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:53:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:53:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:54:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:54:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:55:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:55:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:55:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:56:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:56:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:56:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:57:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:57:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:57:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:58:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:58:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 20:59:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:59:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 20:59:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:00:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:00:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:01:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:01:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:01:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:02:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:02:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:02:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:03:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:03:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:03:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:04:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:04:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:04:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:05:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:05:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:05:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:06:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:06:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:06:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:07:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:07:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:07:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:08:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:08:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:09:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:09:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:09:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:09:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:10:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:10:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:11:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:11:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:11:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:12:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:12:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:12:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:13:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:13:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:13:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:14:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:14:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:14:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:15:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:15:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:15:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:16:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:16:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:17:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:17:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:17:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:18:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:18:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:18:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:19:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:19:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:19:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:19:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:20:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:20:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:20:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:21:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:21:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:21:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:22:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:22:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:23:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:23:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:23:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:24:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:24:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:24:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:25:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:25:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:25:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:26:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:26:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:26:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:27:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:27:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:27:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:28:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:28:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:29:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:29:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:29:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:29:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:30:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:30:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:31:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:31:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:31:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:32:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:32:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:32:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:33:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:33:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:33:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:34:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:34:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:35:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:35:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:35:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:36:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:36:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:36:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:37:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:37:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:37:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:38:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:38:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:38:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:39:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:39:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:39:26] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Console\\Kernel.php(56): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): App\\Console\\Kernel->commands()
+#3 C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2021-12-29 21:39:26] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\BIG BANG\Documents\GitHub\MPES\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\Users\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure}('C:\\\\Users\\\\BIG BA...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:40:32] local.ERROR: syntax error, unexpected token "<<", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"<<\", expecting \"function\" or \"const\" at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Models\\User.php:20)
+[stacktrace]
+#0 {main}
+"} 
+[2021-12-29 21:40:32] local.ERROR: syntax error, unexpected token "<<", expecting "function" or "const" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"<<\", expecting \"function\" or \"const\" at C:\\Users\\BIG BANG\\Documents\\GitHub\\MPES\\app\\Models\\User.php:20)
+[stacktrace]
+#0 {main}
+"} 

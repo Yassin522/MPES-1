@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->boolean('active');
             $table->timestamp('email_verified_at')->nullable();
         });}
+
     /**
      * Reverse the migrations.
      *
